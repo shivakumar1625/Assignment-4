@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* 
+#navbarpages li ,a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;   
+}
+/* li:hover{
+    transform: scale(1.2 ,1.2 );
+    /* background-color: lightgoldenrodyellow; 
+} */
+/* #navbarpages{
+    display: flex; 
+    padding-right: 30px;
+      
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+    width: 100%;
+    background-color: #141111;
+    padding: 10px;
+}  */
+img{
+    height: 100%;
+    object-fit: cover;
+}
+#imgdiv{
+    display: flex;
+    color: white;
+    align-items:center;
+    font-size: 25px;
+    height: 100%;
+}
+main{
+    display: flex;
+}
+#image1{
+    width: 100%;
+}
+#mydetails{
+    width: 50vw;
+    text-align: center;
+    align-content: center;
+    /* justify-content: center; */
+    /* margin-left: 80px;
+    padding-top: 305px;
+    padding-left: 50px; */
+}
+
+#profilimg{
+    height: 610px;
+    width: 50%;
+}
+
+
+/* footer{
+    position: absolute;
+    /* bottom: 0; 
+    height: 10vh;
+    width: 100%;
+    background-color: #141111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logos i{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+footer p{
+    color: white;
+    font-size: 15x;
+} */
+

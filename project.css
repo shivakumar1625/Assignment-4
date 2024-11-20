@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#first-project-details{
+    display: flex;
+    margin-top: 20px;
+   
+}
+#first-project-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#first-project-info{
+    margin-left: 180px;
+}
+#first-project-info  p{
+    font-size: 20px;
+    color: blue;
+}
+#first-project-info  h4{
+    font-size: 20px;
+    color: blue;
+}
+#last-project{
+    margin-bottom: 20px;
+}

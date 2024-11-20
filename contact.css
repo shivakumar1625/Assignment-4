@@ -1,0 +1,41 @@
+#contact-details{
+    width: 50vw;
+    /* text-align: center; */
+    align-content: center;
+    margin-left: 100px;
+    
+}
+#contact-details  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#mobile, #emailid, #git, #link {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    font-size: 30px; 
+    color: white; 
+    background-color: #007bff; 
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+#mobile:hover, #emailid:hover, #git:hover, #link:hover {
+    transform: scale(1.2);
+    background-color: #0056b3; 
+}
+
+.tellnum {
+    color: #007bff; 
+    margin-left: 20px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.tellnum:hover {
+    color: #0056b3;
+}
